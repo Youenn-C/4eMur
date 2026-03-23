@@ -1491,25 +1491,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 220563065923096533, guid: dd2fc8e50d66ee74485c3c112ffb00e2, type: 3}
-      propertyPath: _sensibility
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 220563065923096533, guid: dd2fc8e50d66ee74485c3c112ffb00e2, type: 3}
-      propertyPath: _limitVerticalCameraRotationMax
-      value: 65
-      objectReference: {fileID: 0}
-    - target: {fileID: 220563065923096533, guid: dd2fc8e50d66ee74485c3c112ffb00e2, type: 3}
-      propertyPath: _limitVerticalCameraRotationMin
-      value: -65
-      objectReference: {fileID: 0}
     - target: {fileID: 585133881107993877, guid: dd2fc8e50d66ee74485c3c112ffb00e2, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2556342054785598463, guid: dd2fc8e50d66ee74485c3c112ffb00e2, type: 3}
       propertyPath: playerSpeed
-      value: 3.5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5380979711085817558, guid: dd2fc8e50d66ee74485c3c112ffb00e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1564,8 +1552,4 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 1696819937}
   - {fileID: 1166897930}
-<<<<<<< Updated upstream
-=======
-  - {fileID: 1955098650604733712}
->>>>>>> Stashed changes
   - {fileID: 7332104583082659978}

@@ -3,20 +3,17 @@ using Rewired;
 
 public class MS_Player_Movement : MonoBehaviour
 {
-    [Header("Variables"), Space(5)]
+    [Header("Variables PlayerMovement"), Space(5)]
+    public float playerAtraction;
     [SerializeField] private float _forwardMovement;
     [SerializeField] private float _lateralMovement;
     [Space(5)]
-    [SerializeField] private bool isMoving;
-    [Space(5)]
-    [SerializeField] private Animation _idleAnimation;
-    [SerializeField] private Animation _walkAnimation;
+    public bool isMoving;
     
     void Start()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-        MS_Player_Controller.Instance.playerCameraAnimator.SetTrigger("Idle");
     }
     
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -27,18 +24,6 @@ public class MS_Player_Movement : MonoBehaviour
         // Mises à jour des directions basées sur les boutons
         _forwardMovement = MS_Player_Controller.Instance.player.GetAxis("Forward_Movement");
         _lateralMovement = MS_Player_Controller.Instance.player.GetAxis("Lateral_Movement");
-        
-        if (_forwardMovement == 0f && _lateralMovement == 0f) isMoving = false;
-        else isMoving = true;
-
-        if (isMoving)
-        {
-            MS_Player_Controller.Instance.playerCameraAnimator.SetTrigger("Walk");
-        }
-        else
-        {
-            MS_Player_Controller.Instance.playerCameraAnimator.SetTrigger("Idle");
-        }
     }
     
     void FixedUpdate()
