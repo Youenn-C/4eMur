@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MS_Player_Raycast : MonoBehaviour, I_Interactable
+public class MS_Player_Raycast : MonoBehaviour
 {
     [Header("References"), Space(5)]
     [SerializeField] private Transform _rayOrigine;
@@ -16,12 +16,11 @@ public class MS_Player_Raycast : MonoBehaviour, I_Interactable
 
     void Update()
     {
-        /*
         if (Physics.Raycast(_rayOrigine.position, _rayOrigine.forward, out hit, _rayRange, _layerMaskToCheck))
         {
             Debug.DrawRay(_rayOrigine.position, _rayOrigine.forward * hit.distance, Color.magenta);
 
-            if (PlayerBrain.Instance.player.GetButtonDown("Interact"))
+            if (MS_Player_Controller.Instance.player.GetButtonDown("Interact"))
             {
                 GameObject hitObject = hit.collider.gameObject;
 
@@ -29,19 +28,14 @@ public class MS_Player_Raycast : MonoBehaviour, I_Interactable
                 if (((1 << hitObject.layer) & _layerMaskToCheck) != 0)
                 {
                     // Vérifie s’il implémente IActivatable
-                    I_Interactable activatable = hitObject.GetComponent<I_Interactable>();
+                    I_Interactable currentInteractableElement = hitObject.GetComponent<I_Interactable>();
                     
-                    if (activatable != null)
+                    if (currentInteractableElement != null)
                     {
-                        activatable.Activate();
+                        currentInteractableElement.Activate();
                     }
                 }
             }
         }
-        */
-    }
-
-    public void Activate()
-    {
     }
 }
