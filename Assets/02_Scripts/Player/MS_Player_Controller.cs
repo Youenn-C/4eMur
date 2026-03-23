@@ -9,6 +9,7 @@ public class MS_Player_Controller : MonoBehaviour
     public Rigidbody playerRigidbody;
     public GameObject playerGameObject;
     public GameObject cinemachineTargetGameObject;
+    public Animator playerCameraAnimator;
     
     [Header("Player Scripts"), Space(5)]
     public MS_Player_Movement playerMovement;
