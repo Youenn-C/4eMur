@@ -9,6 +9,7 @@ public class MS_Player_Controller : MonoBehaviour
     public Rigidbody playerRigidbody;
     public GameObject playerGameObject;
     public GameObject cinemachineTargetGameObject;
+    public GameObject playerInteractUI;
     public Animator playerCameraAnimator;
     
     [Header("Player Scripts"), Space(5)]
@@ -31,5 +32,10 @@ public class MS_Player_Controller : MonoBehaviour
         else Destroy(this);
         
         player = ReInput.players.GetPlayer(playerID);
+    }
+
+    void Start()
+    {
+        playerInteractUI.SetActive(false);
     }
 }

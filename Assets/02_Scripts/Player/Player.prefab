@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2556342054785598463}
   - component: {fileID: 7916151856177799949}
   - component: {fileID: 220563065923096533}
+  - component: {fileID: 1749803419146061359}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -201,6 +202,23 @@ MonoBehaviour:
   _limitVerticalCameraRotationMin: -60
   _limitVerticalCameraRotationMax: 60
   currentVerticalRotation: 0
+--- !u!114 &1749803419146061359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585133881107993877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b02f2060dfe9f9940a69636225390230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MS_Player_Raycast
+  _rayOrigine: {fileID: 1036604512065433649}
+  _layerMaskToCheck:
+    serializedVersion: 2
+    m_Bits: 64
+  _rayRange: 7.5
 --- !u!1 &838946271261583910
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,7 +483,7 @@ MonoBehaviour:
       _userAssignable: 1
       _categoryId: 0
     - _id: 2
-      _name: Interaction
+      _name: Interact
       _type: 1
       _descriptiveName: Action0
       _positiveDescriptiveName: 
