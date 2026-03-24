@@ -12,9 +12,6 @@ public class MS_Player_Movement : MonoBehaviour
     void Start()
     {
         MS_Player_Controller.Instance.playerCameraAnimator.SetTrigger("Idle");
-        
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
     }
     
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
