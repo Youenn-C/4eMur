@@ -1,16 +1,31 @@
 using UnityEngine;
+using UnityEngine.UIElements;
+using UnityEngine.EventSystems;
 
-public class DragAndDrop : MonoBehaviour
+public class DragAndDrop : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private RectTransform _rectTransform;
+
+    // private Image _image;
+    void Awake()
     {
-        
+        _rectTransform = GetComponent<RectTransform>();
+        // _image = GetComponent<Image>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnDrag(PointerEventData eventData)
     {
-        
+        // _rectTransform.anchoredPosition += eventData.delta;
+        transform.position = Input.mousePosition;
+    }
+
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        throw new System.NotImplementedException();
     }
 }

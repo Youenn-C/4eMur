@@ -12,6 +12,7 @@ public class MiniGamesManager : MonoBehaviour
 
     private void OnMouseDown()
     {
+        
         _jackCanvas.SetActive(true);
     }
 }
