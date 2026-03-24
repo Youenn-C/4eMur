@@ -13,7 +13,7 @@ public class Manager : MonoBehaviour
     {
         instance = this;
 
-        Screen.SetResolution(500, 300, true);
+        Screen.SetResolution(500, 300, false);
         textQuiFaitPeur.SetActive(false);
     }
 
