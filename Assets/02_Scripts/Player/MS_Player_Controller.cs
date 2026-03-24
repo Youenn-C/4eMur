@@ -37,5 +37,24 @@ public class MS_Player_Controller : MonoBehaviour
     void Start()
     {
         playerInteractUI.SetActive(false);
+        HideCursor();
+    }
+    
+    public void ShowCursor()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        
+        playerCanLookAround  = false;
+        playerCanMove = false;
+    }
+
+    public void HideCursor()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        
+        playerCanLookAround  = true;
+        playerCanMove = true;
     }
 }
