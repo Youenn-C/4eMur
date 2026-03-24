@@ -217,7 +217,7 @@ MonoBehaviour:
   _rayOrigine: {fileID: 1036604512065433649}
   _layerMaskToCheck:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 64
   _rayRange: 7.5
 --- !u!1 &838946271261583910
 GameObject:

@@ -19,6 +19,8 @@ public class MS_Player_Raycast : MonoBehaviour
         if (Physics.Raycast(_rayOrigine.position, _rayOrigine.forward, out hit, _rayRange, _layerMaskToCheck))
         {
             Debug.DrawRay(_rayOrigine.position, _rayOrigine.forward * hit.distance, Color.magenta);
+            
+            MS_Player_Controller.Instance.playerInteractUI.SetActive(true);
 
             if (MS_Player_Controller.Instance.player.GetButtonDown("Interact"))
             {
@@ -37,5 +39,6 @@ public class MS_Player_Raycast : MonoBehaviour
                 }
             }
         }
+        else MS_Player_Controller.Instance.playerInteractUI.SetActive(false);
     }
 }
