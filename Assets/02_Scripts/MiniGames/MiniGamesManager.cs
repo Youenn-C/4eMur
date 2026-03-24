@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MiniGamesManager : MonoBehaviour
 {
-    [SerializeField] private GameObject _jackCanvas;
+    [SerializeField] private GameObject _jackCanvas, _tapeTaupeCanvas;
     private MS_Player_Controller _playerController;
 
     private int _numberOfWins, _amountOfWinsToEarn;

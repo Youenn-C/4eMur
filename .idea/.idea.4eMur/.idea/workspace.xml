@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6b0167e6-b54f-45ef-931a-005e9377f00a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/Jack/DragAndDrop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/Jack/DragAndDrop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/Jack/EnterInBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/Jack/EnterInBox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/ClickableCube.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/ClickableCube.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MiniGamesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MiniGamesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/SpeedClick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/SpeedClick.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/02_Scripts/MiniGames/Jack/DragAndDrop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MiniGamesManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/02_Scripts/MiniGames/TapeTaupe.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -128,7 +131,7 @@
       <workItem from="1774269802592" duration="870000" />
       <workItem from="1774336554354" duration="40000" />
       <workItem from="1774336632227" duration="19000" />
-      <workItem from="1774344618371" duration="3718000" />
+      <workItem from="1774344618371" duration="4333000" />
     </task>
     <servers />
   </component>
