@@ -9,7 +9,7 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
     private RectTransform _rectTransform;
     [SerializeField] private RectTransform _goalRectTransform;
     
-    private Vector3 _jackInSpawn,  _jackOutSpawn;
+    private Vector3 _jackInSpawn, _jackOutSpawn;
     
     private MiniGamesManager _manager;
 
