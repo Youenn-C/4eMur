@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b0167e6-b54f-45ef-931a-005e9377f00a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_Scenes/MJ4_Playlist_A_Vider.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scenes/MJ4_Playlist_A_Vider.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/MS_Music_Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/MS_Music_Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Music_Item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Music_Item.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/SO_Music_Datas.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/SO_Music_Datas.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +36,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "MJ4__Playlist__A__Vider",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,6 +108,7 @@
       <workItem from="1774336554354" duration="40000" />
       <workItem from="1774336632227" duration="19000" />
       <workItem from="1774356048575" duration="7705000" />
+      <workItem from="1774461924584" duration="482000" />
     </task>
     <servers />
   </component>

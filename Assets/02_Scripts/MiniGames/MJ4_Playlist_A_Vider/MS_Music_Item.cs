@@ -14,9 +14,9 @@ public class MS_Music_Item : MonoBehaviour, IPointerEnterHandler
     [SerializeField] private SO_MusicDatas _currentMusicDatas;
     
     [Header("Variables"), Space(5)]
-    [SerializeField] private Vector2 _topLeftMaxPosition;
-    [SerializeField] private Vector2 _bottomRightMaxPosition;
-    [SerializeField] private Vector2 _randomizedPosition;
+    [SerializeField] private Vector3 _topLeftMaxPosition;
+    [SerializeField] private Vector3 _bottomRightMaxPosition;
+    [SerializeField] private Vector3 _randomizedPosition;
     
     
 
@@ -38,7 +38,7 @@ public class MS_Music_Item : MonoBehaviour, IPointerEnterHandler
         _randomizedPosition.x = Random.Range(_topLeftMaxPosition.x, _bottomRightMaxPosition.x);
         _randomizedPosition.y = Random.Range(_topLeftMaxPosition.y, _bottomRightMaxPosition.y);
         
-        _button.transform.position = _randomizedPosition;
+        _button.transform.position = _button.transform.parent.position + _randomizedPosition;
     }
     
     private void Start()
