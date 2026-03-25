@@ -275,7 +275,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 55092983}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1681979017}
+        m_TargetAssemblyTypeName: TapeTaupe, Assembly-CSharp
+        m_MethodName: ClickOnButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 55092982}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &55092983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -532,7 +544,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 383577060}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1681979017}
+        m_TargetAssemblyTypeName: TapeTaupe, Assembly-CSharp
+        m_MethodName: ClickOnButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 383577059}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &383577060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -652,7 +676,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 697777632}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1681979017}
+        m_TargetAssemblyTypeName: TapeTaupe, Assembly-CSharp
+        m_MethodName: ClickOnButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 697777631}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &697777632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -772,7 +808,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 704646849}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1681979017}
+        m_TargetAssemblyTypeName: TapeTaupe, Assembly-CSharp
+        m_MethodName: ClickOnButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 704646848}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &704646849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -892,7 +940,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 716092467}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1681979017}
+        m_TargetAssemblyTypeName: TapeTaupe, Assembly-CSharp
+        m_MethodName: ClickOnButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 716092466}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &716092467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1160,7 +1220,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MiniGamesManager
   _jackCanvas: {fileID: 1304675314}
-  _tapeTaupeCanvas: {fileID: 0}
+  _tapeTaupeCanvas: {fileID: 1681979016}
+  _tapeTaupeManager: {fileID: 1681979017}
 --- !u!1 &966540898
 GameObject:
   m_ObjectHideFlags: 0
@@ -1525,7 +1586,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1534229503}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1681979017}
+        m_TargetAssemblyTypeName: TapeTaupe, Assembly-CSharp
+        m_MethodName: ClickOnButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1534229502}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1534229503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1734,7 +1807,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1640566988}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1681979017}
+        m_TargetAssemblyTypeName: TapeTaupe, Assembly-CSharp
+        m_MethodName: ClickOnButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1640566987}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1640566988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1854,7 +1939,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1643253387}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1681979017}
+        m_TargetAssemblyTypeName: TapeTaupe, Assembly-CSharp
+        m_MethodName: ClickOnButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1643253386}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1643253387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2098,7 +2195,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1747136974}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1681979017}
+        m_TargetAssemblyTypeName: TapeTaupe, Assembly-CSharp
+        m_MethodName: ClickOnButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1747136973}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1747136974
 MonoBehaviour:
   m_ObjectHideFlags: 0
