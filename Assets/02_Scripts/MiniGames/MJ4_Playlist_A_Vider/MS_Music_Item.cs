@@ -22,11 +22,11 @@ public class MS_Music_Item : MonoBehaviour, IPointerEnterHandler
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        float percent = Random.Range(0, 10);
+        float percent = Random.Range(0, 100);
         
         Debug.Log("Trigger");
         
-        if (percent <= 0.5f)
+        if (percent <= 7.5f)
         {
             Debug.Log("Randomize position");
             RandomizePosition();
