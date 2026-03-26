@@ -59,20 +59,20 @@ public class MiniGamesManager : MonoBehaviour
         int r = Random.Range(0, _minigames.Count);
         _currentMinigame =  _minigames[r];
         _currentMinigame.SetActive(true);
+        _currentTime = _maxTime;
+        _timeSlider.value = _currentTime;
+        StartCoroutine(TimeManagement());
 
         if (_currentMinigame == _tapeTaupeCanvas)
         {
             _tapeTaupeManager.Play();
         }
-
-        _currentTime = _maxTime;
-        StartCoroutine(TimeManagement());
     }
 
     public void WinMiniGame()
     {
+        StopAllCoroutines();
         _numberOfWins++;
-        _currentMinigame.SetActive(false);
         if (_numberOfWins < _amountOfWinsToEarn)
         {
             StartCoroutine(WaitBeforeLaunch());
@@ -109,6 +109,7 @@ public class MiniGamesManager : MonoBehaviour
     
     private IEnumerator WaitBeforeLaunch()
     {
+        _currentMinigame.SetActive(false);
         yield return new WaitForSeconds(1);
         LaunchRandomMinigame();
     }
@@ -122,7 +123,9 @@ public class MiniGamesManager : MonoBehaviour
         {
             LoseLife();
         }
-
-        StartCoroutine(TimeManagement());
+        else
+        {
+            StartCoroutine(TimeManagement());
+        }
     }
 }
