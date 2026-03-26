@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/01_Scenes/WhiteRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scenes/WhiteRoom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MiniGamesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MiniGamesManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/TapeTaupe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/TapeTaupe.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +130,7 @@
       <workItem from="1774336632227" duration="19000" />
       <workItem from="1774344618371" duration="5366000" />
       <workItem from="1774428788556" duration="2209000" />
+      <workItem from="1774533299353" duration="1513000" />
     </task>
     <servers />
   </component>

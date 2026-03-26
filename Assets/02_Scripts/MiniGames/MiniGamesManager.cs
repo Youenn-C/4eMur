@@ -6,17 +6,19 @@ using Random = UnityEngine.Random;
 
 public class MiniGamesManager : MonoBehaviour
 {
-    [SerializeField] private GameObject _jackCanvas, _tapeTaupeCanvas;
+    [SerializeField] private GameObject _backgroundCanvas, _jackCanvas, _tapeTaupeCanvas;
     private List<GameObject> _minigames;
     private GameObject _currentMinigame;
     private MS_Player_Controller _playerController;
 
     [SerializeField] private TapeTaupe _tapeTaupeManager;
 
-    private int _numberOfWins, _amountOfWinsToEarn;
+    private int _numberOfWins, _amountOfWinsToEarn, _maxTime, _currentTime;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        _backgroundCanvas.SetActive(false);
+        
         _minigames = new List<GameObject>();
         _minigames.Add(_jackCanvas);
         _minigames.Add(_tapeTaupeCanvas);
@@ -30,12 +32,17 @@ public class MiniGamesManager : MonoBehaviour
         
         _numberOfWins = 0;
         _amountOfWinsToEarn = 3;
+
+        _maxTime = 5;
+        _currentTime = _maxTime;
     }
 
     private void OnMouseDown()
     {
         _playerController.ShowCursor();
         LaunchRandomMinigame();
+        
+        _backgroundCanvas.SetActive(true);
     }
 
     private void LaunchRandomMinigame()
@@ -64,6 +71,7 @@ public class MiniGamesManager : MonoBehaviour
             _playerController.HideCursor();
             _numberOfWins = 0;
             _amountOfWinsToEarn = 3;
+            _backgroundCanvas.SetActive(false);
         }
     }
     
