@@ -52,4 +52,55 @@ public class PopupSpawner
 
         ShowWindow(hWnd, 1);
     }
+    
+    public static void ShowThreeLives()
+    {
+        IntPtr hWnd = CreateWindowEx(
+            0,
+            "STATIC",
+            "Il te reste 3 vies",
+            0x10CF0000, // style standard
+            100, 100, 300, 200,
+            IntPtr.Zero,
+            IntPtr.Zero,
+            IntPtr.Zero,
+            IntPtr.Zero
+        );
+
+        ShowWindow(hWnd, 1);
+    }
+    
+    public static void ShowTwoLives()
+    {
+        IntPtr hWnd = CreateWindowEx(
+            0,
+            "STATIC",
+            "Il te reste encore 2 vies",
+            0x10CF0000, // style standard
+            100, 100, 300, 200,
+            IntPtr.Zero,
+            IntPtr.Zero,
+            IntPtr.Zero,
+            IntPtr.Zero
+        );
+
+        ShowWindow(hWnd, 1);
+    }
+    
+    public static void ShowOneLife()
+    {
+        IntPtr hWnd = CreateWindowEx(
+            0,
+            "STATIC",
+            "C'est ta dernière vie !",
+            0x10CF0000, // style standard
+            100, 100, 300, 200,
+            IntPtr.Zero,
+            IntPtr.Zero,
+            IntPtr.Zero,
+            IntPtr.Zero
+        );
+
+        ShowWindow(hWnd, 1);
+    }
 }

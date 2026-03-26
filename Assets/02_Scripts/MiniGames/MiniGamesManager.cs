@@ -52,6 +52,7 @@ public class MiniGamesManager : MonoBehaviour
         LaunchRandomMinigame();
         
         _backgroundCanvas.SetActive(true);
+        PopupSpawner.ShowThreeLives();
     }
 
     private void LaunchRandomMinigame()
@@ -103,6 +104,14 @@ public class MiniGamesManager : MonoBehaviour
         }
         else
         {
+            if (_currentLife == 2)
+            {
+                PopupSpawner.ShowTwoLives();
+            }
+            if (_currentLife == 1)
+            {
+                PopupSpawner.ShowOneLife();
+            }
             StartCoroutine(WaitBeforeLaunch());
         }
     }
