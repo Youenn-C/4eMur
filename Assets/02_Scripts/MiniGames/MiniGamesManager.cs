@@ -17,7 +17,7 @@ public class MiniGamesManager : MonoBehaviour
 
     private int _numberOfWins, _amountOfWinsToEarn, _maxTime, _currentTime, _maxLife, _currentLife;
     [SerializeField] Slider _timeSlider;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
         _backgroundCanvas.SetActive(false);
@@ -52,7 +52,8 @@ public class MiniGamesManager : MonoBehaviour
         LaunchRandomMinigame();
         
         _backgroundCanvas.SetActive(true);
-        PopupSpawner.ShowThreeLives();
+        
+        PopupSpawner.ShowLife(_currentLife);
     }
 
     private void LaunchRandomMinigame()
@@ -104,14 +105,7 @@ public class MiniGamesManager : MonoBehaviour
         }
         else
         {
-            if (_currentLife == 2)
-            {
-                PopupSpawner.ShowTwoLives();
-            }
-            if (_currentLife == 1)
-            {
-                PopupSpawner.ShowOneLife();
-            }
+            PopupSpawner.ShowLife(_currentLife);
             StartCoroutine(WaitBeforeLaunch());
         }
     }

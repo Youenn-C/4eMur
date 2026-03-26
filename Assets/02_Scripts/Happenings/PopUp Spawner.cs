@@ -18,6 +18,9 @@ public class PopupSpawner
 
     [DllImport("user32.dll")]
     static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+    
+    [DllImport("user32.dll")]
+    static extern bool DestroyWindow(IntPtr hWnd);
 
     public static void CreatePopup()
     {
@@ -43,7 +46,7 @@ public class PopupSpawner
             "STATIC",
             "Va falloir devenir meilleur que ça...",
             0x10CF0000, // style standard
-            100, 100, 300, 200,
+            500, 250, 300, 200,
             IntPtr.Zero,
             IntPtr.Zero,
             IntPtr.Zero,
@@ -53,54 +56,52 @@ public class PopupSpawner
         ShowWindow(hWnd, 1);
     }
     
-    public static void ShowThreeLives()
-    {
-        IntPtr hWnd = CreateWindowEx(
-            0,
-            "STATIC",
-            "Il te reste 3 vies",
-            0x10CF0000, // style standard
-            100, 100, 300, 200,
-            IntPtr.Zero,
-            IntPtr.Zero,
-            IntPtr.Zero,
-            IntPtr.Zero
-        );
-
-        ShowWindow(hWnd, 1);
-    }
     
-    public static void ShowTwoLives()
+    public static void ShowLife(int numberOfLives)
     {
-        IntPtr hWnd = CreateWindowEx(
-            0,
-            "STATIC",
-            "Il te reste encore 2 vies",
-            0x10CF0000, // style standard
-            100, 100, 300, 200,
-            IntPtr.Zero,
-            IntPtr.Zero,
-            IntPtr.Zero,
-            IntPtr.Zero
-        );
-
-        ShowWindow(hWnd, 1);
+        if (numberOfLives == 3)
+        {
+            IntPtr hWnd = CreateWindowEx(
+                0,
+                "STATIC",
+                "Il te reste 3 vies",
+                0x10CF0000, // style standard
+                100, 100, 300, 200,
+                IntPtr.Zero,
+                IntPtr.Zero,
+                IntPtr.Zero,
+                IntPtr.Zero
+            );
+        }
+        if (numberOfLives == 2)
+        {
+            IntPtr twolives = CreateWindowEx(
+                0,
+                "STATIC",
+                "Il te reste encore 2 vies",
+                0x10CF0000, // style standard
+                120, 120, 300, 200,
+                IntPtr.Zero,
+                IntPtr.Zero,
+                IntPtr.Zero,
+                IntPtr.Zero
+            );
+        }
+        
+        if (numberOfLives == 1)
+        {
+            IntPtr onelife = CreateWindowEx(
+                0,
+                "STATIC",
+                "C'est ta dernière vie !",
+                0x10CF0000, // style standard
+                140, 140, 300, 200,
+                IntPtr.Zero,
+                IntPtr.Zero,
+                IntPtr.Zero,
+                IntPtr.Zero
+            );
+        }
     }
-    
-    public static void ShowOneLife()
-    {
-        IntPtr hWnd = CreateWindowEx(
-            0,
-            "STATIC",
-            "C'est ta dernière vie !",
-            0x10CF0000, // style standard
-            100, 100, 300, 200,
-            IntPtr.Zero,
-            IntPtr.Zero,
-            IntPtr.Zero,
-            IntPtr.Zero
-        );
 
-        ShowWindow(hWnd, 1);
-    }
 }
