@@ -35,4 +35,21 @@ public class PopupSpawner
 
         ShowWindow(hWnd, 1);
     }
+    
+    public static void LosingMinigame()
+    {
+        IntPtr hWnd = CreateWindowEx(
+            0,
+            "STATIC",
+            "Va falloir devenir meilleur que ça...",
+            0x10CF0000, // style standard
+            100, 100, 300, 200,
+            IntPtr.Zero,
+            IntPtr.Zero,
+            IntPtr.Zero,
+            IntPtr.Zero
+        );
+
+        ShowWindow(hWnd, 1);
+    }
 }

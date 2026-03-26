@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
+using Slider = UnityEngine.UI.Slider;
 
 public class MiniGamesManager : MonoBehaviour
 {
@@ -13,7 +15,8 @@ public class MiniGamesManager : MonoBehaviour
 
     [SerializeField] private TapeTaupe _tapeTaupeManager;
 
-    private int _numberOfWins, _amountOfWinsToEarn, _maxTime, _currentTime;
+    private int _numberOfWins, _amountOfWinsToEarn, _maxTime, _currentTime, _maxLife, _currentLife;
+    [SerializeField] Slider _timeSlider;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -33,8 +36,14 @@ public class MiniGamesManager : MonoBehaviour
         _numberOfWins = 0;
         _amountOfWinsToEarn = 3;
 
+        _maxLife = 3;
+        _currentLife = _maxLife;
+
         _maxTime = 5;
         _currentTime = _maxTime;
+        _timeSlider.minValue = 0;
+        _timeSlider.maxValue = _maxTime;
+        _timeSlider.value = _currentTime;
     }
 
     private void OnMouseDown()
@@ -55,6 +64,9 @@ public class MiniGamesManager : MonoBehaviour
         {
             _tapeTaupeManager.Play();
         }
+
+        _currentTime = _maxTime;
+        StartCoroutine(TimeManagement());
     }
 
     public void WinMiniGame()
@@ -67,11 +79,31 @@ public class MiniGamesManager : MonoBehaviour
         }
         else
         {
-            _currentMinigame.SetActive(false);
-            _playerController.HideCursor();
-            _numberOfWins = 0;
-            _amountOfWinsToEarn = 3;
-            _backgroundCanvas.SetActive(false);
+            ShutDownMinigame();
+        }
+    }
+
+    public void ShutDownMinigame()
+    {
+        _currentMinigame.SetActive(false);
+        _playerController.HideCursor();
+        _numberOfWins = 0;
+        _amountOfWinsToEarn = 3;
+        _backgroundCanvas.SetActive(false);
+    }
+
+    private void LoseLife()
+    {
+        StopAllCoroutines();
+        _currentLife--;
+        if (_currentLife <= 0)
+        {
+            ShutDownMinigame();
+            PopupSpawner.LosingMinigame();
+        }
+        else
+        {
+            StartCoroutine(WaitBeforeLaunch());
         }
     }
     
@@ -79,5 +111,18 @@ public class MiniGamesManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         LaunchRandomMinigame();
+    }
+
+    private IEnumerator TimeManagement()
+    {
+        yield return new WaitForSeconds(1);
+        _currentTime--;
+        _timeSlider.value = _currentTime;
+        if (_currentTime == 0)
+        {
+            LoseLife();
+        }
+
+        StartCoroutine(TimeManagement());
     }
 }
