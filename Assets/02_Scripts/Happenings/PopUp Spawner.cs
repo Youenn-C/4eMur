@@ -21,6 +21,9 @@ public class PopupSpawner
     
     [DllImport("user32.dll")]
     static extern bool DestroyWindow(IntPtr hWnd);
+    
+    [DllImport("user32.dll")]
+    static extern IntPtr FindWindow(string lpClassName, string lpWindowName);
 
     public static void CreatePopup()
     {
@@ -53,7 +56,8 @@ public class PopupSpawner
             IntPtr.Zero
         );
 
-        ShowWindow(hWnd, 1);
+        var win = FindWindow("STATIC", "Derniere vie !");
+        DestroyWindow(win);
     }
     
     
@@ -86,6 +90,8 @@ public class PopupSpawner
                 IntPtr.Zero,
                 IntPtr.Zero
             );
+            var win = FindWindow("STATIC", "Il te reste 3 vies");
+            DestroyWindow(win);
         }
         
         if (numberOfLives == 1)
@@ -93,7 +99,7 @@ public class PopupSpawner
             IntPtr onelife = CreateWindowEx(
                 0,
                 "STATIC",
-                "C'est ta dernière vie !",
+                "Derniere vie !",
                 0x10CF0000, // style standard
                 140, 140, 300, 200,
                 IntPtr.Zero,
@@ -101,6 +107,9 @@ public class PopupSpawner
                 IntPtr.Zero,
                 IntPtr.Zero
             );
+            
+            var win = FindWindow("STATIC", "Il te reste encore 2 vies");
+            DestroyWindow(win);
         }
     }
 
