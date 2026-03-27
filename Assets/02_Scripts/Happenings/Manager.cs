@@ -15,6 +15,7 @@ public class Manager : MonoBehaviour
 
         Screen.SetResolution(1920, 1080, true);
         Application.runInBackground = true;
+        Application.targetFrameRate = 60;
         // textQuiFaitPeur.SetActive(false);
     }
 

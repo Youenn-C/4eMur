@@ -19,6 +19,8 @@ public class MS_MJ6_Manager : MonoBehaviour
     public Color[] colors;
     [Space(5)]
     public List<MS_MG6_Slot> _slotsRemain;
+    
+    private MiniGamesManager _minigameManager;
 
     private void Awake()
     {
@@ -30,7 +32,8 @@ public class MS_MJ6_Manager : MonoBehaviour
     
     private void Start()
     {
-        Application.targetFrameRate = 60;
+        _minigameManager = FindFirstObjectByType<MiniGamesManager>();
+        // Application.targetFrameRate = 60;
         ShuffleArray(_idOrder);
         Change_Objectives_Colors();
     }
@@ -85,6 +88,7 @@ public class MS_MJ6_Manager : MonoBehaviour
         if (miniGameIsComplete)
         {
             Debug.Log("MiniGame Complete");
+            _minigameManager.WinMiniGame();
         }
         else 
         {
