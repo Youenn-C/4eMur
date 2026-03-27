@@ -15,7 +15,9 @@ public class PopupSpawner
         IntPtr instance,
         IntPtr param
     );
-
+    
+    const int WS_EX_TOPMOST = 0x00000008;
+    
     [DllImport("user32.dll")]
     static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
     
@@ -63,12 +65,13 @@ public class PopupSpawner
     
     public static void ShowLife(int numberOfLives)
     {
+        string name = Environment.UserName;
         if (numberOfLives == 3)
         {
             IntPtr hWnd = CreateWindowEx(
                 0,
                 "STATIC",
-                "Il te reste 3 vies",
+                "Il te reste 3 vies, " + name,
                 0x10CF0000, // style standard
                 100, 100, 300, 200,
                 IntPtr.Zero,
@@ -80,7 +83,7 @@ public class PopupSpawner
         if (numberOfLives == 2)
         {
             IntPtr twolives = CreateWindowEx(
-                0,
+                WS_EX_TOPMOST,
                 "STATIC",
                 "Il te reste encore 2 vies",
                 0x10CF0000, // style standard
@@ -90,7 +93,7 @@ public class PopupSpawner
                 IntPtr.Zero,
                 IntPtr.Zero
             );
-            var win = FindWindow("STATIC", "Il te reste 3 vies");
+            var win = FindWindow("STATIC", "Il te reste 3 vies, " + name);
             DestroyWindow(win);
         }
         

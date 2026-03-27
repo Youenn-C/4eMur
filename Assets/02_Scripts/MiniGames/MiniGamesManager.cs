@@ -11,6 +11,8 @@ public class MiniGamesManager : MonoBehaviour
     private List<GameObject> _minigames;
     private GameObject _currentMinigame;
     private MS_Player_Controller _playerController;
+    
+    private BoxCollider _boxCollider;
 
     [SerializeField] private TapeTaupe _tapeTaupeManager;
     [SerializeField] private GlassBreak _glassBreak;
@@ -20,6 +22,7 @@ public class MiniGamesManager : MonoBehaviour
     
     void Start()
     {
+        _boxCollider =  GetComponent<BoxCollider>();
         _backgroundCanvas.SetActive(false);
         
         _minigames = new List<GameObject>();
@@ -49,6 +52,7 @@ public class MiniGamesManager : MonoBehaviour
 
     private void OnMouseDown()
     {
+        _boxCollider.enabled = false;
         _playerController.ShowCursor();
         LaunchRandomMinigame();
         
@@ -98,6 +102,7 @@ public class MiniGamesManager : MonoBehaviour
         _numberOfWins = 0;
         _amountOfWinsToEarn = 3;
         _backgroundCanvas.SetActive(false);
+        _boxCollider.enabled = true;
     }
 
     private void LoseLife()

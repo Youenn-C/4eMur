@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
-    public GameObject textQuiFaitPeur;
+    // public GameObject textQuiFaitPeur;
 
     private static Manager instance;
 
@@ -13,16 +13,16 @@ public class Manager : MonoBehaviour
     {
         instance = this;
 
-        Screen.SetResolution(500, 300, false);
-        textQuiFaitPeur.SetActive(false);
+        Screen.SetResolution(1920, 1080, true);
+        // textQuiFaitPeur.SetActive(false);
     }
 
     static bool WantsToQuit()
     {
         if (instance != null)
         {
-            instance.textQuiFaitPeur.SetActive(true);
-            Screen.SetResolution(1920, 1080, true);
+            // instance.textQuiFaitPeur.SetActive(true);
+            // Screen.SetResolution(1920, 1080, true);
             return true;
         }
 
@@ -35,18 +35,18 @@ public class Manager : MonoBehaviour
         Application.wantsToQuit += WantsToQuit;
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Application.wantsToQuit -= WantsToQuit;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            PopupSpawner.CreatePopup();
-        }
-    }
+    // void Update()
+    // {
+    //     if (Input.GetKeyDown(KeyCode.Space))
+    //     {
+    //         Application.wantsToQuit -= WantsToQuit;
+    //     }
+    //
+    //     if (Input.GetKeyDown(KeyCode.Escape))
+    //     {
+    //         PopupSpawner.CreatePopup();
+    //     }
+    // }
 }
 
     // private IEnumerator Coroutine()
