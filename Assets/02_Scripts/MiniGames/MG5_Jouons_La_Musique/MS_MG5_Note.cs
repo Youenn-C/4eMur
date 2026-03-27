@@ -14,6 +14,6 @@ public class MS_MG5_Note : MonoBehaviour
 
     private void Update()
     {
-        transform.position += new Vector3(-2, 0, 0);
+        transform.position += new Vector3(-5, 0, 0);
     }
 }

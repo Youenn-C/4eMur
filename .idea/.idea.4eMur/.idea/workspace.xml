@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acf3d1ef-7e1e-413a-a1af-ca85d057a98c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/01_Scenes/Blockout_Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scenes/Blockout_Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/Happenings/Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/Happenings/Manager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MS_MJ6_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MS_MJ6_Manager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MiniGamesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MiniGamesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG5_Jouons_La_Musique/MS_MG5_Note.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG5_Jouons_La_Musique/MS_MG5_Note.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1774626758996</updated>
-      <workItem from="1774626760407" duration="2197000" />
+      <workItem from="1774626760407" duration="2816000" />
     </task>
     <servers />
   </component>
