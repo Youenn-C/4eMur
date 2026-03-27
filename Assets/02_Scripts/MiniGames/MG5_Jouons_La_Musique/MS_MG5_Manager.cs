@@ -1,21 +1,44 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using Rewired;
+using Random = UnityEngine.Random;
 
 
 public class MS_MG5_Manager : MonoBehaviour
 {
-    [Header("Rewired"), Space(5)]
-    public int playerID;
-    public Player MG5_player;
+    public static MS_MG5_Manager Instance;
+    
+    [Header("References"), Space(5)]
+    [SerializeField] private List<GameObject> _spawnPoints;
+    [SerializeField] private GameObject _prefabToInstantiate; 
 
-    void Awake()
+    [Header("Variables"), Space(5)]
+    [SerializeField] private float _timer;
+    public bool miniGameIsComplete;
+    
+    private void Awake()
     {
-        MG5_player = ReInput.players.GetPlayer(playerID);
+        if (Instance == null)
+        {
+            Instance = this;
+        }
     }
-    
-    
-    
-    
-    
-    
+
+    private void Start()
+    {
+        StartCoroutine(Create_Note());
+    }
+
+    IEnumerator Create_Note()
+    {
+        while (!miniGameIsComplete)
+        {
+            int randomInt = Random.Range(0, _spawnPoints.Count);
+
+            Instantiate(_prefabToInstantiate, _spawnPoints[randomInt].transform);
+            
+            yield return new WaitForSeconds(0.75f);
+        }
+    }
 }
