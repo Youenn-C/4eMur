@@ -47,7 +47,7 @@ public class PopupSpawner
     public static void LosingMinigame()
     {
         IntPtr hWnd = CreateWindowEx(
-            0,
+            WS_EX_TOPMOST,
             "STATIC",
             "Va falloir devenir meilleur que ça...",
             0x10CF0000, // style standard
@@ -69,7 +69,7 @@ public class PopupSpawner
         if (numberOfLives == 3)
         {
             IntPtr hWnd = CreateWindowEx(
-                0,
+                WS_EX_TOPMOST,
                 "STATIC",
                 "Il te reste 3 vies, " + name,
                 0x10CF0000, // style standard
@@ -100,7 +100,7 @@ public class PopupSpawner
         if (numberOfLives == 1)
         {
             IntPtr onelife = CreateWindowEx(
-                0,
+                WS_EX_TOPMOST,
                 "STATIC",
                 "Derniere vie !",
                 0x10CF0000, // style standard

@@ -14,6 +14,7 @@ public class Manager : MonoBehaviour
         instance = this;
 
         Screen.SetResolution(1920, 1080, true);
+        Application.runInBackground = true;
         // textQuiFaitPeur.SetActive(false);
     }
 
