@@ -11,6 +11,7 @@ public class MS_Player_Controller : MonoBehaviour
     public GameObject cinemachineTargetGameObject;
     public GameObject playerInteractUI;
     public Animator playerCameraAnimator;
+    public GameObject crosshair;
     
     [Header("Player Scripts"), Space(5)]
     public MS_Player_Movement playerMovement;
@@ -47,6 +48,8 @@ public class MS_Player_Controller : MonoBehaviour
         
         playerCanLookAround  = false;
         playerCanMove = false;
+        
+        crosshair.SetActive(false);
     }
 
     public void HideCursor()
@@ -56,5 +59,7 @@ public class MS_Player_Controller : MonoBehaviour
         
         playerCanLookAround  = true;
         playerCanMove = true;
+        
+        crosshair.SetActive(true);
     }
 }
