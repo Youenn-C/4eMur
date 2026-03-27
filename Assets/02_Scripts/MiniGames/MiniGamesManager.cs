@@ -2,18 +2,18 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
 using Slider = UnityEngine.UI.Slider;
 
 public class MiniGamesManager : MonoBehaviour
 {
-    [SerializeField] private GameObject _backgroundCanvas, _jackCanvas, _tapeTaupeCanvas;
+    [SerializeField] private GameObject _backgroundCanvas, _jackCanvas, _tapeTaupeCanvas, _breakGlass;
     private List<GameObject> _minigames;
     private GameObject _currentMinigame;
     private MS_Player_Controller _playerController;
 
     [SerializeField] private TapeTaupe _tapeTaupeManager;
+    [SerializeField] private GlassBreak _glassBreak;
 
     private int _numberOfWins, _amountOfWinsToEarn, _maxTime, _currentTime, _maxLife, _currentLife;
     [SerializeField] Slider _timeSlider;
@@ -25,6 +25,7 @@ public class MiniGamesManager : MonoBehaviour
         _minigames = new List<GameObject>();
         _minigames.Add(_jackCanvas);
         _minigames.Add(_tapeTaupeCanvas);
+        _minigames.Add(_breakGlass);
         
         _playerController = MS_Player_Controller.Instance;
         
@@ -68,6 +69,11 @@ public class MiniGamesManager : MonoBehaviour
         if (_currentMinigame == _tapeTaupeCanvas)
         {
             _tapeTaupeManager.Play();
+        }
+
+        if (_currentMinigame == _breakGlass)
+        {
+            _glassBreak.Initialize();
         }
     }
 
