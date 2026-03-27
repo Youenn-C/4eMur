@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,6 +17,8 @@ public class MS_MJ6_Manager : MonoBehaviour
     public int[] _idOrder;
     [Space(5)]
     public Color[] colors;
+    [Space(5)]
+    public List<MS_MG6_Slot> _slotsRemain;
 
     private void Awake()
     {
@@ -54,19 +57,6 @@ public class MS_MJ6_Manager : MonoBehaviour
         _objectvesImages[3].color = colors[_idOrder[3]];
         _objectvesImages[4].color = colors[_idOrder[4]];
     }
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     private void Update()
     {
@@ -83,7 +73,12 @@ public class MS_MJ6_Manager : MonoBehaviour
         //    }
         //}
     }
-    
+
+    public void Check_Slots_Remaining()
+    {
+        if (_slotsRemain.Count == 0) EndOfMiniGame(miniGameIsComplete = true);
+        else EndOfMiniGame(miniGameIsComplete = false);
+    }
     
     void EndOfMiniGame(bool miniGameIsComplete)
     {

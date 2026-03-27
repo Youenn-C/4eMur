@@ -1916,10 +1916,11 @@ MonoBehaviour:
   _idOrder: 0000000001000000020000000300000004000000
   colors:
   - {r: 1, g: 0, b: 0, a: 1}
-  - {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  - {r: 1, g: 0.9721347, b: 0, a: 1}
   - {r: 0, g: 1, b: 0, a: 1}
   - {r: 0, g: 0, b: 1, a: 1}
   - {r: 1, g: 0, b: 1, a: 1}
+  _slotsRemain: []
 --- !u!224 &1880279777 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4611801901327402236, guid: 31c8f874ef34f5244b1a42aec6cfb0ac, type: 3}

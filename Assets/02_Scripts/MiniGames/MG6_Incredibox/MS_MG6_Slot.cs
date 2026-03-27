@@ -13,7 +13,12 @@ public class MS_MG6_Slot : MonoBehaviour
     [SerializeField] private bool _currentGrabedItemIsCorrect;
     [SerializeField] private int _idTarget;
 
-    
+    private void Start()
+    {
+        MS_MJ6_Manager.Instance._slotsRemain.Add(this);
+    }
+
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.GetComponent<MS_MG6_Grabbable_Item>() != null)
@@ -44,6 +49,8 @@ public class MS_MG6_Slot : MonoBehaviour
         if (_currentGrabedItem.ID == MS_MJ6_Manager.Instance._idOrder[_idTarget])
         {
             _currentGrabedItemIsCorrect =  true;
+            MS_MJ6_Manager.Instance._slotsRemain.Remove(this);
+            MS_MJ6_Manager.Instance.Check_Slots_Remaining();
         }
     }
 }

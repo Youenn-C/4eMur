@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b0167e6-b54f-45ef-931a-005e9377f00a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_Scenes/MG6_Incredibox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scenes/MG6_Incredibox.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MG6_Objective.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MG6_Objective.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MG6_Slot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MG6_Slot.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MS_MG6_Slot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MS_MG6_Slot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MS_MJ6_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MS_MJ6_Manager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/MS_Music_Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/MS_Music_Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
