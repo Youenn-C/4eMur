@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class MS_MJ4_Manager : MonoBehaviour
+public class MS_MG4_Manager : MonoBehaviour
 {
     [Header("Reference"), Space(5)]
     [SerializeField] private GameObject _musicQueue;

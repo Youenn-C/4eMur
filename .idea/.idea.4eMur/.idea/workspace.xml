@@ -5,8 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b0167e6-b54f-45ef-931a-005e9377f00a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MS_MG6_Slot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MS_MG6_Slot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MS_MJ6_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG6_Incredibox/MS_MJ6_Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_01.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_01.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_01.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_01.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_02.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_02.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_02.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_02.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_03.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_03.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_03.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_03.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_04.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_04.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_04.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_04.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_05.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_05.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_05.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_05.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_06.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_06.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_06.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_06.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_07.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_07.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_07.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_07.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_08.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_08.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_08.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_08.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_09.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_09.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_09.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_09.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_10.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_10.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_10.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_10.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_11.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_11.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_11.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_11.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_12.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_12.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_12.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_12.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_13.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_13.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_MusicDatas_13.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_MusicDatas_13.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_Music_Datas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_Music_Datas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Datas/SO_Music_Datas.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Datas/SO_Music_Datas.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/MS_MJ4_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/MS_MG4_Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/MS_MJ4_Manager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/MS_MG4_Manager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/MS_Music_Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/MS_Music_Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/MS_Music_Item.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/MS_Music_Item.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Music_Item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Music_Item.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MJ4_Playlist_A_Vider/Music_Item.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/Music_Item.prefab.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,22 +65,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;MG6__Incredibox&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "MG5__Jouons__La__Musique",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.3.11f1\Editor\Unity.exe" />
