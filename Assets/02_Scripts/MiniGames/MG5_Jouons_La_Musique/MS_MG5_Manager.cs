@@ -17,6 +17,8 @@ public class MS_MG5_Manager : MonoBehaviour
     [SerializeField] private float _timer;
     public bool miniGameIsComplete;
     
+    private MiniGamesManager _minigamesManager;
+    
     private void Awake()
     {
         if (Instance == null)
@@ -27,6 +29,7 @@ public class MS_MG5_Manager : MonoBehaviour
 
     private void Start()
     {
+        _minigamesManager = FindFirstObjectByType<MiniGamesManager>();
         StartCoroutine(Create_Note());
     }
 

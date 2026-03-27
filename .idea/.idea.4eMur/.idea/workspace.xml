@@ -7,8 +7,11 @@
     <list default="true" id="acf3d1ef-7e1e-413a-a1af-ca85d057a98c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.4eMur/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/01_Scenes/Blockout_Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scenes/Blockout_Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/MS_MG4_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG4_Playlist_A_Vider/MS_MG4_Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01_Scenes/MG5_Jouons_La_Musique.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scenes/MG5_Jouons_La_Musique.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG5_Jouons_La_Musique/MS_MG5_Finish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG5_Jouons_La_Musique/MS_MG5_Finish.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG5_Jouons_La_Musique/MS_MG5_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MG5_Jouons_La_Musique/MS_MG5_Manager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MiniGamesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/MiniGames/MiniGamesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02_Scripts/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02_Scripts/Player/Player.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1774626758996</updated>
-      <workItem from="1774626760407" duration="1017000" />
+      <workItem from="1774626760407" duration="1812000" />
     </task>
     <servers />
   </component>
