@@ -10,10 +10,13 @@ public class MS_MG4_Manager : MonoBehaviour
     [SerializeField] private int _musicNumber;
     [SerializeField] private float _timer;
     [SerializeField] private bool miniGameIsComplete;
+    
+    private MiniGamesManager _minigameManager;
 
     private void Start()
     {
-        Application.targetFrameRate = 60;
+        _minigameManager = FindFirstObjectByType<MiniGamesManager>();
+        // Application.targetFrameRate = 60;
         
         _musicNumber = _musicQueue.transform.childCount;
     }
@@ -21,25 +24,25 @@ public class MS_MG4_Manager : MonoBehaviour
 
     private void Update()
     {
-        if (!miniGameIsComplete)
-        {
-            if (_timer > 0f)
-            {
-                _timer -= Time.deltaTime;
-            }
-
-            if (_timer <= 0f)
-            {
-                EndOfMiniGame(miniGameIsComplete = false);
-            }
-        }
+        // if (!miniGameIsComplete)
+        // {
+        //     if (_timer > 0f)
+        //     {
+        //         _timer -= Time.deltaTime;
+        //     }
+        //
+        //     if (_timer <= 0f)
+        //     {
+        //         EndOfMiniGame(miniGameIsComplete = false);
+        //     }
+        // }
     }
 
 
     public void DecrementMusicNumber()
     {
         _musicNumber--;
-        if (_musicNumber == 0)
+        if (_musicNumber <= 2)
         {
             EndOfMiniGame(miniGameIsComplete = true);
         }
@@ -49,7 +52,7 @@ public class MS_MG4_Manager : MonoBehaviour
     {
         if (miniGameIsComplete)
         {
-            Debug.Log("MiniGame Complete");
+            _minigameManager.WinMiniGame();
         }
         else 
         {

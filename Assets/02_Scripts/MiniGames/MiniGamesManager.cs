@@ -7,7 +7,7 @@ using Slider = UnityEngine.UI.Slider;
 
 public class MiniGamesManager : MonoBehaviour
 {
-    [SerializeField] private GameObject _backgroundCanvas, _jackCanvas, _tapeTaupeCanvas, _breakGlass;
+    [SerializeField] private GameObject _backgroundCanvas, _jackCanvas, _tapeTaupeCanvas, _breakGlass, _playlist;
     private List<GameObject> _minigames;
     private GameObject _currentMinigame;
     private MS_Player_Controller _playerController;
@@ -29,6 +29,7 @@ public class MiniGamesManager : MonoBehaviour
         _minigames.Add(_jackCanvas);
         _minigames.Add(_tapeTaupeCanvas);
         _minigames.Add(_breakGlass);
+        _minigames.Add(_playlist);
         
         _playerController = MS_Player_Controller.Instance;
         
